@@ -74,7 +74,6 @@ export const SignUpModal = ({
                 size={'lg'}
                 withCloseButton={false}
                 padding={0}
-                // className={'sm:w-full'}
             >
                 <div className="my-3 px-10 py-10 text-left lg:mt-0">
                     <h6 className="py-2 text-xl uppercase text-[#DCDCDC]">Sign Up</h6>

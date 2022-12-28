@@ -212,27 +212,6 @@ const VideoHeader = () => {
 
   return (
     <header className={`fixed top-0 left-0 h-screen w-screen bg-black`}>
-      {/* 3d Earth Video */}
-      {/* {bgDisplay && (
-        <video
-          src="/videos/bg-video-earth.mp4"
-          // style={{ visibility: bgDisplay ? '' : 'hidden' }}
-          // src="/videos/bg-video-earth.mp4"
-          className="relative -z-20 h-full w-auto min-w-full object-cover"
-          autoPlay
-          loop
-          playsInline
-          muted
-        ></video>
-      )}
-      <video
-        id="myVid"
-        ref={videoRef}
-        src="/videos/bg-video-new.mp4"
-        // style={{ visibility: bgDisplay ? 'hidden' : '' }}
-        className="relative -z-20 h-screen w-auto min-w-full object-cover"
-      ></video> */}
-
       {/* Three.js 3D Earth */}
       <Canvas>
         <Suspense fallback={null}>
@@ -263,9 +242,6 @@ const VideoHeader = () => {
         <SignUpModal
           modal={modal}
           setModal={setModal}
-        // selectedPost={selectedPost}
-        // setSelectedPost={setSelectedPost}
-        // fetchFunction={fetchFunction}
         />
       </div>
     </header>
